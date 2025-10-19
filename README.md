@@ -1,7 +1,11 @@
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
+</p>
 <h1 align="center">
-🎬 𝗡𝗘𝗧𝗙𝗟𝗜𝗫 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 ⚡
-</h1>
-
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=🎬+𝗡𝗘𝗧𝗙𝗟𝗜𝗫+𝗖𝗛𝗘𝗖𝗞𝗘𝗥+𝗣𝗥𝗘𝗠𝗜𝗨𝗠+𝗦𝗖𝗥𝗜𝗣𝗧+⚡" ="Typing Animation">
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
+</p>
 <p align="center">
 🔥 <em>Bulk Account Checking Made Easy</em> 🔥
 </p>
@@ -37,18 +41,24 @@
 ☁️ 𝗖𝗟𝗢𝗨𝗗 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧
 
 <p align="center">
+  <a href="https://heroku.com/deploy?template=https://github.com/yourusername/netflix-checker-bot" target="_blank">
+    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" height="40">
+  </a>
 
-https://img.shields.io/badge/Heroku-DEPLOY-430098?style=for-the-badge&logo=heroku
-https://img.shields.io/badge/Railway-DEPLOY-0B0D0E?style=for-the-badge&logo=railway
-https://img.shields.io/badge/Render-DEPLOY-46E3B7?style=for-the-badge&logo=render
+  <a href="https://railway.app/template/your-template" target="_blank">
+    <img src="https://railway.app/button.svg" alt="Deploy on Railway" height="40">
+  </a>
 
+  <a href="https://render.com/deploy" target="_blank">
+    <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy on Render" height="40">
+  </a>
 </p>
 
 𝗦𝘁𝗲𝗽𝘀:
 
 1. Click your preferred platform button
 2. Connect your GitHub account
-3. Set BOT_TOKEN in Environment Variables or on the config.py
+3. Set BOT_TOKEN in Environment Variables
 4. Deploy 🎉
 
 📱 𝗧𝗘𝗥𝗠𝗨𝗫 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧
@@ -124,7 +134,7 @@ Supported formats:
 
 ⚠️ 𝗗𝗜𝗦𝗖𝗟𝗔𝗜𝗠𝗘𝗥
 
-This tool is for educational purposes only. Users are responsible for how they use this software. Always respect terms of service and use responsibly.
+This Script is for educational purposes only. Users are responsible for how they use this software. Always respect terms of service and use responsibly.
 
 ---
 
@@ -134,5 +144,4 @@ This tool is for educational purposes only. Users are responsible for how they u
 
 <p align="center">
   Made with ❤️ by the development team
-  💎An0nOtF Technologies Ltd💎
 </p>
