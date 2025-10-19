@@ -1,0 +1,24 @@
+{
+  "name": "Netflix Checker Bot",
+  "description": "Premium Netflix Account Checker Telegram Bot",
+  "repository": "https://github.com/yourusername/netflix-checker-bot",
+  "logo": "https://cdn-icons-png.flaticon.com/512/732/732228.png",
+  "keywords": ["python", "telegram", "bot", "netflix", "checker"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from @BotFather",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-firefox"
+    }
+  ]
+}
