@@ -1,11 +1,11 @@
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-</p>
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=🎬+𝗡𝗘𝗧𝗙𝗟𝗜𝗫+𝗖𝗛𝗘𝗖𝗞𝗘𝗥+𝗣𝗥𝗘𝗠𝗜𝗨𝗠+𝗦𝗖𝗥𝗜𝗣𝗧+⚡" ="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=🎬+𝗡𝗘𝗧𝗙𝗟𝗜𝗫+𝗖𝗛𝗘𝗖𝗞𝗘𝗥+𝗣𝗥𝗘𝗠𝗜𝗨𝗠+𝗦𝗖𝗥𝗜𝗣𝗧+⚡" alt="Typing Animation">
+</h1>
+
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
+
 <p align="center">
 🔥 <em>Bulk Account Checking Made Easy</em> 🔥
 </p>
@@ -134,7 +134,7 @@ Supported formats:
 
 ⚠️ 𝗗𝗜𝗦𝗖𝗟𝗔𝗜𝗠𝗘𝗥
 
-This Script is for educational purposes only. Users are responsible for how they use this software. Always respect terms of service and use responsibly.
+This tool is for educational purposes only. Users are responsible for how they use this software. Always respect terms of service and use responsibly.
 
 ---
 
