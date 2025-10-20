@@ -68,7 +68,7 @@ Feature Type Capabilities
 pkg install python git firefox geckodriver -y
 
 # Clone & setup
-git clone https://github.com/yourusername/netflix-checker-bot
+git clone https://github.com/heis448/netflix-checker-bot
 cd netflix-checker-bot
 cp config.py.example config.py
 
