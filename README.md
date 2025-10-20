@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://t.me/kenyacryptoanalysis" target="_blank">
-    <img src="https://img.shields.io/badge/Join-Telegram Channel-blue?style=for-the-badge&logo=telegram" alt="Telegram Channel">
+    <img src="https://img.shields.io/badge/Join-Telegram_Channel-blue?style=for-the-badge&logo=telegram" alt="Telegram Channel">
   </a>
   <a href="https://t.me/unknownnumeralx" target="_blank">
     <img src="https://img.shields.io/badge/Contact-Developer-green?style=for-the-badge&logo=telegram" alt="Contact Developer">
@@ -29,10 +29,10 @@
 
 ✨ 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦
 
-🚀 Fast 🛡️ Secure 📊 Smart
-• Bulk processing • Stealth mode • Real-time progress
-• Quick checking • No data stored • Live stats
-• Optimized delays • Safe & reliable • Clean results
+Feature Type Capabilities
+🚀 Fast • Bulk processing   • Quick checking   • Optimized delays
+🛡️ Secure • Stealth mode   • No data stored   • Safe & reliable
+📊 Smart • Real-time progress   • Live stats   • Clean results
 
 ---
 
@@ -41,15 +41,15 @@
 ☁️ 𝗖𝗟𝗢𝗨𝗗 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧
 
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/yourusername/netflix-checker-bot" target="_blank">
+  <a href="https://heroku.com/deploy">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" height="40">
   </a>
-
-  <a href="https://railway.app/template/your-template" target="_blank">
+  &nbsp;&nbsp;
+  <a href="https://railway.app">
     <img src="https://railway.app/button.svg" alt="Deploy on Railway" height="40">
   </a>
-
-  <a href="https://render.com/deploy" target="_blank">
+  &nbsp;&nbsp;
+  <a href="https://render.com/deploy">
     <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy on Render" height="40">
   </a>
 </p>
@@ -65,7 +65,7 @@
 
 ```bash
 # Install packages
-pkg install python git firefox geckodriver
+pkg install python git firefox geckodriver -y
 
 # Clone & setup
 git clone https://github.com/yourusername/netflix-checker-bot
@@ -74,6 +74,9 @@ cp config.py.example config.py
 
 # Edit config file (add your bot token)
 nano config.py
+
+# Install requirements
+pip install -r requirements.txt
 
 # Run bot
 python app.py
@@ -122,11 +125,11 @@ Supported formats:
 
 <p align="center">
   <a href="https://t.me/kenyacryptoanalysis" target="_blank">
-    <img src="https://img.shields.io/badge/📢 Join-Our Channel-blue?style=for-the-badge&logo=telegram" alt="Telegram Channel" height="40">
+    <img src="https://img.shields.io/badge/📢_Join_Our_Channel-blue?style=for-the-badge&logo=telegram" alt="Telegram Channel" height="40">
   </a>
-  <br>
+  <br><br>
   <a href="https://t.me/unknownnumeralx" target="_blank">
-    <img src="https://img.shields.io/badge/👨‍💻 Contact-Developer-green?style=for-the-badge&logo=telegram" alt="Contact Developer" height="40">
+    <img src="https://img.shields.io/badge/👨‍💻_Contact_Developer-green?style=for-the-badge&logo=telegram" alt="Contact Developer" height="40">
   </a>
 </p>
 
