@@ -53,19 +53,19 @@ Feature Type Capabilities
 
 ☁️ 𝗖𝗟𝗢𝗨𝗗 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 (One-Click)
 
+
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/heis448/netflix-checker-bot">
+  <a href="https://heroku.com/deploy">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" height="40">
   </a>
   &nbsp;&nbsp;
-  <a href="https://railway.app/template/your-template-id">
+  <a href="https://railway.app">
     <img src="https://railway.app/button.svg" alt="Deploy on Railway" height="40">
   </a>
   &nbsp;&nbsp;
   <a href="https://render.com/deploy">
     <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy on Render" height="40">
   </a>
-</p>
 
 𝗦𝘁𝗲𝗽𝘀:
 
