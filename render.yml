@@ -2,8 +2,9 @@ services:
   - type: web
     name: netflix-checker-bot
     env: python
+    plan: free
     buildCommand: |
-      wget https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-linux64.tar.gz
+      wget -q https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-linux64.tar.gz
       tar -xzf geckodriver-v0.34.0-linux64.tar.gz
       chmod +x geckodriver
       mv geckodriver /usr/local/bin/
@@ -11,4 +12,4 @@ services:
     startCommand: python app.py
     envVars:
       - key: BOT_TOKEN
-        description: Telegram Bot Token from @BotFather
+        sync: false
