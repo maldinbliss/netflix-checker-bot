@@ -1040,15 +1040,15 @@ class UniversalNetflixCheckerBot:
         )
 
 def get_bot_token():
-    """Get bot token from multiple sources with priority"""
+    """Get bot token from multiple sources with proper priority"""
     
-    # 1. Environment variable (for cloud deployment)
+    # 1. Environment variable (highest priority - for cloud platforms)
     env_token = os.environ.get('BOT_TOKEN')
-    if env_token and env_token != "YOUR_BOT_TOKEN_HERE":
+    if env_token and env_token != "YOUR_BOT_TOKEN_HERE" and len(env_token) > 10:
         logger.info("✅ Bot token loaded from environment variable")
         return env_token
     
-    # 2. Config file
+    # 2. Config file (second priority - for manual setup)
     try:
         if os.path.exists("config.py"):
             import importlib.util
@@ -1056,11 +1056,18 @@ def get_bot_token():
             config_module = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(config_module)
             
-            if hasattr(config_module, 'BOT_TOKEN') and config_module.BOT_TOKEN and config_module.BOT_TOKEN != "YOUR_BOT_TOKEN_HERE":
+            config_token = getattr(config_module, 'BOT_TOKEN', None)
+            if config_token and config_token != "YOUR_BOT_TOKEN_HERE" and len(config_token) > 10:
                 logger.info("✅ Bot token loaded from config.py")
-                return config_module.BOT_TOKEN
+                return config_token
     except Exception as e:
-        logger.warning("❌ Error reading config.py: %s", e)
+        logger.warning("⚠️ Error reading config.py: %s", e)
+    
+    # 3. Hardcoded token (lowest priority - for quick testing)
+    hardcoded_token = "YOUR_BOT_TOKEN_HERE"  # Users can replace this line
+    if hardcoded_token and hardcoded_token != "YOUR_BOT_TOKEN_HERE" and len(hardcoded_token) > 10:
+        logger.info("✅ Bot token loaded from hardcoded value")
+        return hardcoded_token
     
     return None
 
