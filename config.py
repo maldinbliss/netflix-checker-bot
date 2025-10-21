@@ -5,7 +5,8 @@
 import os
 
 # 🔑 Get bot token from environment variable first, then config
-BOT_TOKEN = os.environ.get('BOT_TOKEN') or "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = os.environ.get('BOT_TOKEN') or "8381285267:AAHFZNWVqGi4QDNpyAoh3gtZaMP-CaiU9aE"
+ #Replace with your actual bot token 
 
 # Platform-Specific Settings
 MAX_ACCOUNTS_RAILWAY = 100
@@ -24,7 +25,7 @@ CLEANUP_BROWSER = True
 AUTO_DELETE_FILES = True
 
 # Bot will check if token is valid
-if BOT_TOKEN == "8381285267:AAHFZNWVqGi4QDNpyAoh3gtZaMP-CaiU9aE": #Replace with your actual bot token 
+if BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
     print("❌ ERROR: Please set your BOT_TOKEN in environment variables or edit config.py")
     print("💡 Get token from @BotFather on Telegram")
     exit(1)
