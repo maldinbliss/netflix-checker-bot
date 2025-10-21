@@ -16,14 +16,12 @@
   <img src="https://img.shields.io/badge/Status-ACTIVE-green?style=flat&logo=netflix">
 </p>
 
-<p🎬 𝗡𝗘𝗧𝗙𝗟𝗜𝗫 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗦𝗖𝗥𝗜𝗣𝗧 ⚡
-
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
 
 <p align="center">
-🔥 <em>Universal Multi-Platform Netflix Account Checker</em> 🔥
+🔥 <em>An0nOtF Premium Checker</em> 🔥
 </p>
 
 <p align="center">
@@ -47,9 +45,6 @@
 ✨ 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦
 
 Feature Type Capabilities
-🚀 Fast • Bulk processing • Quick checking • Optimized delays Multi-threaded processing with platform-specific optimizations
-🛡️ Secure • Stealth mode • No data stored • Safe & reliable Auto-cleanup, no logs, secure credential handling
-📊 Smart • Real-time progress • Live stats • Clean results Beautiful progress bars with inline buttons
 🌍 Universal • 5 Platform Support • Auto-detection • Optimized for each Works on Termux, VPS, Heroku, Railway, Render
 
 ---
@@ -76,7 +71,7 @@ Feature Type Capabilities
 
 1. Click your preferred platform button
 2. Connect your GitHub account
-3. Set BOT_TOKEN in Environment Variables
+3. Set BOT_TOKEN in Config.py, (edit it, put your actual bot token) 
 4. Deploy 🎉
 
 ---
@@ -123,7 +118,7 @@ python app.py
 
 ```bash
 # One-command setup (Ubuntu/Debian)
-git clone https://github.com/heis448/netflix-checker-bot
+git clone https://github.com/heis448/netflix-checke
 cd netflix-checker-bot
 chmod +x build.sh
 ./build.sh
@@ -181,102 +176,10 @@ python app.py
 
 ---
 
-⚙️ 𝗖𝗢𝗡𝗙𝗜𝗚𝗨𝗥𝗔𝗧𝗜𝗢𝗡
-
-1. Get Bot Token
-
-· Message @BotFather on Telegram
-· Send /newbot and follow instructions
-· Copy the bot token
-
-2. Configure Bot Token
-
-Method 1: Environment File (Recommended)
-
-```bash
-cp .env.example .env
-nano .env
-```
-
-Add your token:
-
-```env
-BOT_TOKEN=your_actual_bot_token_here
-```
-
-Method 2: Config File
-
-```bash
-nano config.py
-```
-
-Update the token:
-
-```python
-BOT_TOKEN = "your_actual_bot_token_here"
-```
-
-3. Start Bot
-
-```bash
-python app.py
-```
-
----
-
-📋 𝗨𝗦𝗔𝗚𝗘
-
-Bot Commands:
-
-· /start - Start bot with interactive buttons
-· /status - Check bot status and platform info
-· /platform - Show platform information
-
-Account Format:
-
-Create a .txt file with accounts (one per line):
-
-```
-email:password
-user@gmail.com:pass123
-account@yahoo.com:secret456
-```
-
-Features:
-
-· ✅ Real-time progress with beautiful progress bars
-· ✅ Inline buttons for easy navigation
-· ✅ Platform detection with optimized performance
-· ✅ Batch processing with smart delays
-· ✅ Live status updates with refresh capability
-
----
-
-🌍 𝗣𝗟𝗔𝗧𝗙𝗢𝗥𝗠 𝗦𝗣𝗘𝗖𝗜𝗙𝗜𝗖𝗔𝗧𝗜𝗢𝗡𝗦
-
-Platform Max Accounts Speed Setup
-📱 Termux 50 accounts 🟡 Medium Auto-script
-🖥️ VPS/Server 500 accounts 🔥 Ultra Fast Auto-script
-☁️ Heroku 100 accounts 🟢 Fast One-click
-🚄 Railway 100 accounts 🟢 Fast One-click
-⚡ Render 100 accounts 🟢 Fast One-click
-
----
-
-🛡️ 𝗦𝗘𝗖𝗨𝗥𝗜𝗧𝗬 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦
-
-· 🔒 No data storage - Accounts processed in memory only
-· 🚫 No logging - Zero credential logging
-· ⚡ Secure processing - Encrypted in transit
-· 🗑️ Auto-cleanup - Automatic browser and file cleanup
-· 🌐 Stealth mode - Anti-detection browser settings
-
----
-
 📞 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗔𝗡𝗗 𝗖𝗢𝗡𝗧𝗥𝗜𝗕𝗨𝗧𝗜𝗡𝗚
 
 <p align="center">
-  <a href="https://t.me/heistech" target="_blank">
+  <a href="https://t.me/https://t.me/+NTvpFvT6cA8yODM0" target="_blank">
     <img src="https://img.shields.io/badge/📢_Join_Our_Channel-blue?style=for-the-badge&logo=telegram" alt="Telegram Channel" height="40">
   </a>
   <br><br>
@@ -284,7 +187,7 @@ Platform Max Accounts Speed Setup
     <img src="https://img.shields.io/badge/👨‍💻_Contact_Developer-green?style=for-the-badge&logo=telegram" alt="Contact Developer" height="40">
   </a>
   <br><br>
-  <a href="https://t.me/heistech_updates" target="_blank">
+  <a href="https://t.me/https://t.me/+VhwPKJBsyisyY2Q0" target="_blank">
     <img src="https://img.shields.io/badge/🔔_Get_Updates-orange?style=for-the-badge&logo=telegram" alt="Updates Channel" height="40">
   </a>
 </p>
@@ -319,11 +222,6 @@ This tool is for educational purposes only. Users are responsible for how they u
   <strong>⭐ Don't forget to star this repository if you find it useful! ⭐</strong>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/heis448/netflix-checker-bot?style=social" alt="GitHub Stars">
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/github/forks/heis448/netflix-checker-bot?style=social" alt="GitHub Forks">
-</p>
 
 <p align="center">
   <strong>Made with ❤️ in Kenya 🇰🇪 by @unknownnumeralx</strong>
