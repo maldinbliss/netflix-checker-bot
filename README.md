@@ -69,10 +69,10 @@ Feature Type Capabilities
 
 𝗦𝘁𝗲𝗽𝘀:
 
-1. Click your preferred platform button
-2. Connect your GitHub account
-3. Set BOT_TOKEN in Config.py, (edit it, put your actual bot token) 
-4. Deploy 🎉
+1. Star and Fork repository 
+2. Set BOT_TOKEN in Config.py, (edit it, put your actual bot token) 
+3. Click your preferred platform button to deploy 
+4. on termux or vps copy the commands💎
 
 ---
 
