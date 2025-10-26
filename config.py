@@ -7,7 +7,7 @@ import os
 # 🔑 BOT TOKEN - Choose ONE method below:
 
 # METHOD 1: Direct hardcode in config.py
-BOT_TOKEN = "8381285267:AAHFZNWVqGi4QDNpyAoh3gtZaMP-CaiU9aE"
+BOT_TOKEN = "8418801641:AAEFCnElRJQgzfjPDnLB6XZno6eNAvmQEd0"
 
 # METHOD 2: Read from environment variable (comment above line, uncomment below)
 # BOT_TOKEN = os.environ.get('BOT_TOKEN') or "YOUR_BOT_TOKEN_HERE"
